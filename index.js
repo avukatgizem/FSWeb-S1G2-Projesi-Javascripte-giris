@@ -18,7 +18,12 @@ Aşağıdakileri yapın:
    2. Eğer yaş 18'den büyük ise Console'da true, değilse false değeri yazdırın.
 
    İPUCU: fonksiyon oluşturmaya gerek yok
-*/
+*/let surucuYasi = 45;
+if (surucuYasi>18) {
+  console.log (true);
+} else {
+  console.log (false);
+}
 
 
 
@@ -33,10 +38,13 @@ Aşağıdakileri yapınız:
 
    İPUCU: fonksiyon oluşturmaya gerek yok
 */
+let birinciDegeri = 55
+let ikinciDegeri = 45
 
-
-
-
+if (birinciDegeri>ikinciDegeri) {
+  birinciDegeri = 25;
+  console.log(birinciDegeri);
+}
 
 /*
 Görev 1c - String bir değeri Number'a dönüştürün (puanlamaya dahil değildir)
@@ -48,6 +56,11 @@ Aşağıdakileri yapın:
 
    İPUCU: Number metoduna bakabilirsin
 */
+
+const stringSayi = "1999"
+const numberSayi = Number(stringSayi);
+console.log(stringSayi);
+console.log(numberSayi);
 
 
 
@@ -61,11 +74,11 @@ Aşağıdakileri yaparak carpma isimli fonksiyonu tamamlayın:
    3. console.log(carpma(7,4)) ile yazdığınız fonsiyonu test edin. Console'da sonucu 28 olarak görmelisiniz.
 */
 
-function carpma(/*buraya kodunu yazabilirsin*/){
-  /*buraya kodunu yazabilirsin*/
+function carpma(a, b) {
+return a*b;
 }
 
-
+console.log(carpma(7,4))
 
 
 /* Görev 2 : Köpeğin Yaşı */
